@@ -1,0 +1,110 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #121212;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f5f5f5;
+    color: #121212;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.navprodutos .nav-link.active:hover {
+    color: #f5f5f5;
+}
+
+.navbar-toggler {
+    background-color: #f5f5f5;
+}
+
+.section-title {
+    font-family: 'Press Start 2P', cursive;
+    color: #f5f5f5;
+}
+
+#sobre-a-gente,
+#sessaoprodutos {
+    background-color: #2b2b2b;
+}
+
+.text-colored {
+    color: #4caf50;
+}
+
+.navprodutos .nav-link.active,
+#fale-conosco button {
+    background-color: #4caf50;
+    color: #1e1e1e;
+}
+
+.navprodutos .nav-link:hover {
+    color: #4caf50;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.social-links li a:hover {
+    color: #4caf50;
+}
+
+.valor {
+    text-decoration: line-through;
+    color:  #757575;
+}
+
+.promo {
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: 100%;
+    }
+
+    .button-form {
+        margin-bottom: 26px;
+}
+
+    .social-links li {
+        display: block
+}
+    .navprodutos {
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width:1366px) {
+    .carousel-item img {
+        width: 100%;
+    }
+
+    .navbar-brand h1 {
+        display: block;
+    }
+
+    .navprodutos {
+        padding-bottom: 20px;
+    }
+
+    .social-links li {
+        display: block
+}
+}
+
